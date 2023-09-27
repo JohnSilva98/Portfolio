@@ -64,3 +64,15 @@ nav {
   background-color: #22bb5f;
   color: #fff;
 }
+
+.main-banner {
+  background-image: url(img/back.png);
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0;
+}
+
+.main-banner h1,
+p {
+  display: none;
+}
