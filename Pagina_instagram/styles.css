@@ -216,3 +216,41 @@ footer #footer-links {
     margin-bottom: 10px;
   }
 }
+
+#main-reset-container {
+  display: flex;
+}
+header {
+  align-items: center;
+  padding: 0 20px;
+  height: 40px;
+  width: 100%;
+}
+header img {
+  margin-top: 10px;
+  height: 29px;
+  width: 103px;
+}
+#line-reset {
+  border-top: 1px solid #dbdbdb;
+  width: 100%;
+  margin-top: 3px;
+}
+#reset-container {
+  flex-direction: column;
+  text-align: center;
+
+  margin: 10px auto 0 auto;
+  width: 388px;
+  height: 500px;
+  border: 1px solid red;
+}
+#reset-container .lock {
+  width: 96px;
+  height: 96px;
+  justify-content: center;
+}
+#reset-container .problem {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
