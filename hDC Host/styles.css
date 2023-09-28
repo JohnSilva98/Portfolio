@@ -326,6 +326,10 @@ footer {
 }
 
 @media screen and (max-width: 330px) {
+  .main-banner {
+    background-size: contain;
+  }
+
   .searchdomain-container h2 {
     font-size: 20px;
   }
