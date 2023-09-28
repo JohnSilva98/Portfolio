@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css ">
-  <title>Instagram</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css " />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <main>
+      <div id="main-container">
+        <!--banner container-->
+        <div id="banner-container">
+          <img src="img/banner2.png" alt="Crie uma conta no Instagram" />
+        </div>
+        <!--login e registro-->
+        <div id="form-container">
+          <div id="form-box">
+            <img src="img/logo_instagram.png" alt="Instagram" />
+            <form id="login-form">
+              <input
+                type="text"
+                name="username"
+                placeholder="Número de telefone ou email"
+              />
+              <input type="password" name="password" placeholder="Senha" />
+              <input type="submit" value="Entrar" />
+            </form>
+            <div id="separator">
+              <div id="line">
+                <span>Ou</span>
+              </div>
+              <div id="other-links">
+                <img src="img/logo_facebook.svg" alt="Logar com facebook" />
+                <span>Entrar com FaceBook</span>
+              </div>
+              <div id="forgot-pass">
+                <a href="#">Esqueceu a senha?</a>
+              </div>
+            </div>
+          </div>
+          <div id="register-container">
+            <p>Não tem uma conta?<a href="#">Cadastre-se</a></p>
+          </div>
+          <div id="get-app-container">
+            <p>Obtenha o aplicativo</p>
+            <a href="#">
+              <img src="img/apple_btn.png" alt="Apple Store" />
+            </a>
+            <a href="#"><img src="img/gplay_btn.png" alt="Google Play " /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
