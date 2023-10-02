@@ -216,6 +216,7 @@ footer #footer-links {
     margin-bottom: 10px;
   }
 }
+/*pagina de recuperar senha*/
 
 #main-reset-container {
   display: flex;
@@ -335,4 +336,17 @@ header img {
   color: #262626;
   font-size: 14px;
   text-decoration: none;
+}
+
+/*pagina de cadastro*/
+#main-singup {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1px;
+  border: 1px solid red;
+  width: 350px;
+  height: 633px;
+  margin: 0, 0, 0, 10px;
+  padding: 10px 0;
 }
