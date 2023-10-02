@@ -239,18 +239,100 @@ header img {
 #reset-container {
   flex-direction: column;
   text-align: center;
-
+  justify-content: center;
   margin: 10px auto 0 auto;
   width: 388px;
   height: 500px;
-  border: 1px solid red;
+  border: 1px solid gray;
 }
-#reset-container .lock {
+.lock {
   width: 96px;
   height: 96px;
-  justify-content: center;
+  margin: 20px auto;
 }
 #reset-container .problem {
   font-weight: bold;
-  margin-bottom: 10px;
+}
+#reset-container .text {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#forgot-passwd {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+#recover {
+  text-align: center;
+  margin: 0 auto;
+  padding: 4px 9px;
+  width: 290px;
+  height: 38px;
+}
+
+#forgot-passwd input[type="submit"] {
+  background-color: #b2dffc;
+  color: #fff;
+  margin-top: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 13px;
+  padding: 0;
+  font-weight: bold;
+}
+
+#redefinir {
+  font-size: 12px;
+  margin-top: 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#forgot-passwd .return {
+  display: flex;
+  border: 1px solid gray;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #fafafa;
+  margin-top: 2.3rem;
+}
+#forgot-passwd .return a {
+  text-decoration: none;
+  color: #262626;
+  font-size: 14px;
+}
+.separador {
+  position: relative;
+}
+
+.linha {
+  border-top: 1px solid #dbdbdb;
+  width: 268px;
+  margin: 25px auto 35px;
+}
+
+.separador span {
+  position: absolute;
+  text-transform: uppercase;
+  color: #bbb;
+  background-color: #fff;
+  width: 50px;
+  margin-left: -25px;
+  font-size: 14px;
+}
+
+#new-account {
+  width: 300px;
+  height: 18px;
+  margin: 0 auto;
+}
+#new-account a {
+  color: #262626;
+  font-size: 14px;
+  text-decoration: none;
 }
