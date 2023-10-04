@@ -422,3 +422,20 @@ header img {
   width: 259px;
   height: 36px;
 }
+
+.spans {
+  width: 246px;
+  height: 112px;
+  margin: 0 auto;
+}
+.spans span {
+  width: 246px;
+  height: 48px;
+  color: #737373;
+  font-size: 12px;
+  text-align: center;
+}
+.spans a {
+  text-decoration: none;
+  color: #00376b;
+}
