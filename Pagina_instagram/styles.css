@@ -344,9 +344,9 @@ header img {
   align-items: center;
   flex-direction: column;
   border-radius: 1px;
-  border: 1px solid red;
+  border: 1px solid gray;
   width: 350px;
-  height: 633px;
+  height: 600px;
   margin: 0 auto;
   padding: 10px 0;
 }
@@ -371,6 +371,7 @@ header img {
   border-radius: 10px;
   background-color: #0095f6;
   padding: 7px 16px;
+  opacity: 0.7;
 }
 .fblogin img {
   width: 20px;
@@ -422,13 +423,17 @@ header img {
   width: 259px;
   height: 36px;
 }
-
+#space {
+  margin-bottom: 30px;
+}
 .spans {
   width: 246px;
   height: 112px;
   margin: 0 auto;
 }
 .spans span {
+  display: flex;
+  flex-direction: column;
   width: 246px;
   height: 48px;
   color: #737373;
@@ -438,4 +443,51 @@ header img {
 .spans a {
   text-decoration: none;
   color: #00376b;
+}
+
+.cadastre-se {
+  display: flex;
+  width: 348px;
+  height: 48px;
+  margin-top: 10px;
+}
+
+.cadastre-se button {
+  width: 268px;
+  height: 32px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #0095f6;
+  opacity: 0.7;
+}
+
+.cadastre-se a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+#connect {
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 350px;
+  height: 69px;
+  margin: 0 auto;
+}
+
+#connect p {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+#connect a {
+  text-decoration: none;
+  color: #0095f6;
+}
+
+.spacedivs {
+  margin: 0 0 10px;
+  padding: 10px o;
 }
