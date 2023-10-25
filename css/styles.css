@@ -6,59 +6,155 @@
   font-family: "Poppins";
 }
 /* html */
-/* html {
-  background: rgb(2,0,36);
-background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
-} */
-
-
-
-
-/* aside */
-aside {
-  display: block;
+html {
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 100%
+  );
 }
+
+#main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+h2,
+p {
+  color: #fff;
+}
+/* aside */
+
 #aside-content {
+  flex: 1 1 30%;
   text-align: center;
   background-color: darkolivegreen;
   padding: 10px;
-  width: 350px;
+
   height: 100vh;
 }
 
 #aside-content img {
   margin-top: 10px;
   border-radius: 100px;
-  
 }
 
-#aside-content p{
+#aside-content p {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#aside-content a{
+#aside-content a {
   color: #fff;
   text-decoration: none;
+  font-size: 1rem;
+  margin-top: 15px;
 }
 
-#aside-content i{
+#aside-content i {
   margin-right: 10px;
 }
 
+/* lista skills */
 
-/* content */
-#content-container {
-  display: flex;
+ul li{
+  margin-bottom: 5px;
 }
+#Skills #c {
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 45%,
+    rgba(9, 9, 121, 1) 45%
+  );
+  text-align: start;
+}
+#Skills #sql {
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 40%,
+    rgba(9, 9, 121, 1) 40%
+  );
+  text-align: start;
+}
+#Skills #html {
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 70%,
+    rgba(9, 9, 121, 1) 70%
+  );
+  text-align: start;
+}
+#Skills #css {
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 60%,
+    rgba(9, 9, 121, 1) 60%
+  );
+  text-align: start;
+}
+#Skills #js {
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 50%,
+    rgba(9, 9, 121, 1) 50%
+  );
+  text-align: start;
+}
+#Skills #python {
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 20%,
+    rgba(9, 9, 121, 1) 20%
+  );
+  text-align: start;
+}
+#Skills #windows {
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 100%,
+    rgba(9, 9, 121, 1) 100%
+  );
+  text-align: start;
+}
+#Skills #mac {
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 95%,
+    rgba(9, 9, 121, 1) 95%
+  );
+  text-align: start;
+}
+
 /* cabeçalho */
 header {
-  background-color: #98a2a8;
-  border-radius: 5px;
   display: flex;
+  background-color: #98a2a8;
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
+}
+
+.highlight {
+  color: yellowgreen;
 }
 
 #social-media a {
