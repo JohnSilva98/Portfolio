@@ -1,0 +1,31 @@
+/* reset global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+/* html */
+html {
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
+}
+
+/* cabeçalho */
+header {
+  background-color: #98a2a8;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+#social-media a {
+  color: black;
+  text-decoration: none;
+}
+#social-media i {
+  font-size: 30px;
+  letter-spacing: 10px;
+}
