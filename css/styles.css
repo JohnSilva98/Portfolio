@@ -6,11 +6,51 @@
   font-family: "Poppins";
 }
 /* html */
-html {
+/* html {
   background: rgb(2,0,36);
 background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
+} */
+
+
+
+
+/* aside */
+aside {
+  display: block;
+}
+#aside-content {
+  text-align: center;
+  background-color: darkolivegreen;
+  padding: 10px;
+  width: 350px;
+  height: 100vh;
 }
 
+#aside-content img {
+  margin-top: 10px;
+  border-radius: 100px;
+  
+}
+
+#aside-content p{
+  color: #fff;
+  font-size: 2rem;
+}
+
+#aside-content a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#aside-content i{
+  margin-right: 10px;
+}
+
+
+/* content */
+#content-container {
+  display: flex;
+}
 /* cabeçalho */
 header {
   background-color: #98a2a8;
