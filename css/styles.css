@@ -50,15 +50,18 @@ h3 {
 header {
   display: flex;
   background-color: #98a2a8;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  padding: 0 10px;
+  padding: 0 3px;
 }
 
 .highlight {
   color: yellowgreen;
 }
-
+#social-media {
+  position: absolute;
+  left: 1080px;
+}
 #social-media a {
   color: black;
   text-decoration: none;
@@ -84,7 +87,7 @@ header {
   text-align: center;
   background-color: #98a2a8;
   padding: 10px;
-  height: 100vh;
+  height: 900px;
 }
 
 #aside-content img {
@@ -108,6 +111,31 @@ header {
 
 #aside-content i {
   margin-right: 10px;
+}
+
+#aside-content #English{
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  transition: .5s ease;
+}
+#aside-content #English:hover{
+background-color: white;
+color: black;
+border-radius: 20px
+}
+#aside-content #portugues{
+  background-color: transparent;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  transition: .5s ease;
+}
+#aside-content #portugues:hover{
+background-color: white;
+color: black;
+border-radius: 20px
 }
 
 a {
@@ -198,6 +226,7 @@ ul li {
     rgba(9, 9, 121, 1) 95%
   );
   text-align: start;
+  margin-bottom: 10px;
 }
 
 /* cabeçalho */
