@@ -32,14 +32,17 @@ h1:hover {
   color: white;
 }
 h2,
+h3,
 p {
   color: #fff;
 }
-h2 {
+h2,h3 {
+  margin-top: 5px;
   margin-left: 10px;
 }
 .description {
   margin-left: 10px;
+  line-height: 22px;
 }
 /* aside */
 
@@ -48,7 +51,6 @@ h2 {
   text-align: center;
   background-color: darkolivegreen;
   padding: 10px;
-
   height: 100vh;
 }
 
@@ -182,9 +184,9 @@ header {
   color: black;
   text-decoration: none;
 }
-#social-media i{
+#social-media i {
   color: black;
-  transition: .5s;
+  transition: 0.5s;
 }
 #social-media i:hover {
   -webkit-transform: scale(1.4);
@@ -195,4 +197,20 @@ header {
 #social-media i {
   font-size: 30px;
   letter-spacing: 10px;
+}
+
+.projects-gallery {
+  
+  column-count: 3;
+  column-gap: 0;
+}
+
+.projects-gallery img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  transition: scale 350ms ease, opacity 350ms linear;
+}
+.projects-gallery:has(img:hover) img:not(:hover) {
+  scale: 0.9;
+  opacity: 0.7;
 }
