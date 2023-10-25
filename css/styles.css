@@ -36,7 +36,8 @@ h3,
 p {
   color: #fff;
 }
-h2,h3 {
+h2,
+h3 {
   margin-top: 5px;
   margin-left: 10px;
 }
@@ -180,6 +181,17 @@ header {
   color: yellowgreen;
 }
 
+#email{
+  color: white;
+  transition: .5s;
+}
+
+#email:hover{
+  color: cornflowerblue;
+  text-decoration: underline;
+
+}
+
 #social-media a {
   color: black;
   text-decoration: none;
@@ -200,7 +212,6 @@ header {
 }
 
 .projects-gallery {
-  
   column-count: 3;
   column-gap: 0;
 }
