@@ -113,29 +113,29 @@ header {
   margin-right: 10px;
 }
 
-#aside-content #English{
+#aside-content #English {
   background-color: transparent;
   color: white;
   font-size: 1.2rem;
   margin-top: 10px;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-#aside-content #English:hover{
-background-color: white;
-color: black;
-border-radius: 20px
+#aside-content #English:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
 }
-#aside-content #portugues{
+#aside-content #portugues {
   background-color: transparent;
   color: white;
   font-size: 1.2rem;
   margin-top: 10px;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
-#aside-content #portugues:hover{
-background-color: white;
-color: black;
-border-radius: 20px
+#aside-content #portugues:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
 }
 
 a {
@@ -152,18 +152,32 @@ ul li {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 45%,
-    rgba(9, 9, 121, 1) 45%
+    rgba(9, 9, 121, 1) 45%,
+    rgba(2, 0, 36, 1) 45%
   );
   text-align: start;
+  animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 #Skills #sql {
   color: #fff;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 40%,
-    rgba(9, 9, 121, 1) 40%
+    rgba(9, 9, 121, 1) 40%,
+    rgba(2, 0, 36, 1) 40%
   );
   text-align: start;
 }
@@ -172,8 +186,8 @@ ul li {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 70%,
-    rgba(9, 9, 121, 1) 70%
+    rgba(9, 9, 121, 1) 70%,
+    rgba(2, 0, 36, 1) 70%
   );
   text-align: start;
 }
@@ -182,8 +196,8 @@ ul li {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 60%,
-    rgba(9, 9, 121, 1) 60%
+    rgba(9, 9, 121, 1) 60%,
+    rgba(2, 0, 36, 1) 60%
   );
   text-align: start;
 }
@@ -192,8 +206,8 @@ ul li {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 50%,
-    rgba(9, 9, 121, 1) 50%
+    rgba(9, 9, 121, 1) 45%,
+    rgba(2, 0, 36, 1) 45%
   );
   text-align: start;
 }
@@ -202,8 +216,8 @@ ul li {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 30%,
-    rgba(9, 9, 121, 1) 30%
+    rgba(9, 9, 121, 1) 30%,
+    rgba(2, 0, 36, 1) 30%
   );
   text-align: start;
 }
@@ -212,8 +226,8 @@ ul li {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 100%,
-    rgba(9, 9, 121, 1) 100%
+    rgba(9, 9, 121, 1) 100%,
+    rgba(2, 0, 36, 1) 100%
   );
   text-align: start;
 }
@@ -222,8 +236,8 @@ ul li {
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 95%,
-    rgba(9, 9, 121, 1) 95%
+    rgba(9, 9, 121, 1) 95%,
+    rgba(2, 0, 36, 1) 95%
   );
   text-align: start;
   margin-bottom: 10px;
