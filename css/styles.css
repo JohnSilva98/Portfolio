@@ -18,6 +18,7 @@ html {
 #main-container {
   display: flex;
   flex-direction: row;
+  overflow: hidden;
 }
 
 h1 {
@@ -45,12 +46,43 @@ h3 {
   margin-left: 10px;
   line-height: 22px;
 }
-/* aside */
+/* cabeçalho */
+header {
+  display: flex;
+  background-color: #98a2a8;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
 
+.highlight {
+  color: yellowgreen;
+}
+
+#social-media a {
+  color: black;
+  text-decoration: none;
+}
+#social-media i {
+  color: black;
+  transition: 0.5s;
+}
+#social-media i:hover {
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+  color: white;
+}
+#social-media i {
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+/* aside */
 #aside-content {
   flex: 1 1 30%;
   text-align: center;
-  background-color: darkolivegreen;
+  background-color: #98a2a8;
   padding: 10px;
   height: 100vh;
 }
@@ -169,54 +201,25 @@ ul li {
 }
 
 /* cabeçalho */
-header {
-  display: flex;
-  background-color: #98a2a8;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
-}
 
-.highlight {
-  color: yellowgreen;
-}
-
-#email{
+#email {
   color: white;
-  transition: .5s;
-}
-
-#email:hover{
-  color: cornflowerblue;
-  text-decoration: underline;
-
-}
-
-#social-media a {
-  color: black;
-  text-decoration: none;
-}
-#social-media i {
-  color: black;
   transition: 0.5s;
 }
-#social-media i:hover {
-  -webkit-transform: scale(1.4);
-  -ms-transform: scale(1.4);
-  transform: scale(1.4);
-  color: white;
-}
-#social-media i {
-  font-size: 30px;
-  letter-spacing: 10px;
+
+#email:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
 }
 
+/* conteudo principal */
 .projects-gallery {
   column-count: 3;
   column-gap: 0;
 }
 
 .projects-gallery img {
+  margin: 0 0 2px 8px;
   width: 100%;
   aspect-ratio: 1/1;
   transition: scale 350ms ease, opacity 350ms linear;
