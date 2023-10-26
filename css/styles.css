@@ -8,10 +8,10 @@
 /* html */
 html {
   background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 100%
+  background: linear-gradient(
+    180deg,
+    #000000 30%,
+    #0f5 100%
   );
 }
 
