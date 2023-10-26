@@ -110,6 +110,8 @@ h3 {
 #aside-content img {
   margin-top: 10px;
   border-radius: 100px;
+  height: 170px;
+  width: 170px;
 }
 
 #aside-content p {
@@ -259,6 +261,8 @@ ul li {
   text-align: start;
   margin-bottom: 10px;
 }
+
+
 
 /* cabeçalho */
 
