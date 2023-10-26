@@ -92,7 +92,7 @@ h3 {
   height: 100vh;
 }
 #habilidades li{
-  margin: 10px;
+  margin:  0 24px;
 }
 
 #habilidades #hab{
@@ -184,7 +184,7 @@ ul li {
 #Skills #cSharp {
   color: #b74bb7;
   position: relative;
-  right: 7rem;
+  right: 6.3rem;
   
 }
 
@@ -199,7 +199,7 @@ ul li {
 #Skills #sql {
   color: #e52e2e;
   position: relative;
-   right: 5rem;
+   right: 4.1rem;
   
 }
 #Skills #html {
@@ -213,7 +213,7 @@ ul li {
 #Skills #ht {
   color: #f16529;
   position: relative;
-   right: 6.5rem;
+   right: 5.8rem;
   
 }
 #Skills #css {
@@ -226,7 +226,7 @@ ul li {
 #Skills #css3{
    color: #0078d4;
   position: relative;
-   right: 7rem;
+   right: 6.2rem;
 }
 #Skills #js {
   background: rgb(2, 0, 36);
@@ -238,7 +238,7 @@ ul li {
 #Skills #javaScript {
   color: #f7df1d;
   position: relative;
-   right: 5rem;
+   right: 4.2rem;
 }
 #Skills #python {
   background: rgb(2, 0, 36);
@@ -250,7 +250,7 @@ ul li {
 #Skills #py {
   color: #f7df1d;
   position: relative;
-  right: 6rem;
+  right: 5.3rem;
 }
 #Skills #windows {
   background: rgb(2, 0, 36);
@@ -262,7 +262,7 @@ ul li {
 #Skills #win {
   color: #0078d4;
   position: relative;
-  right: 5.3rem;
+  right: 4.5rem;
 }
 #Skills #mac {
   background: rgb(2, 0, 36);
@@ -270,12 +270,13 @@ ul li {
   text-align: start;
   line-height: 20px;
   margin-top: -10px;
+  margin-bottom: 5px;
 }
 
 #Skills #macOS{
   color: white;
   position: relative;
-  right: 6rem;
+  right: 5.2rem;
 }
 
 /* cabeçalho */
