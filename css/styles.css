@@ -49,8 +49,9 @@ h3 {
 /* cabeçalho */
 header {
   display: flex;
+  justify-content: space-between;
   background-color: #98a2a8;
-  /* justify-content: space-between; */
+ 
   align-items: center;
   padding: 0 3px;
 }
@@ -58,10 +59,7 @@ header {
 .highlight {
   color: yellowgreen;
 }
-#social-media {
-  position: absolute;
-  left: 1080px;
-}
+
 #social-media a {
   color: black;
   text-decoration: none;
@@ -270,4 +268,22 @@ ul li {
 .projects-gallery:has(img:hover) img:not(:hover) {
   scale: 0.9;
   opacity: 0.7;
+}
+
+@media screen and (max-width:480px){
+
+  #main-container{
+    display: block;
+  }
+
+  #aside-content{
+    height: 50%;
+  }
+
+  header{
+    display: block;
+   
+  }
+
+
 }
