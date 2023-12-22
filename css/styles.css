@@ -355,6 +355,8 @@ ul li {
   #social-media {
     left: 3px;
     position: relative;
+  }
+  #social-media a {
     color: #fff;
   }
 
@@ -388,11 +390,9 @@ ul li {
     right: 10rem !important;
   }
   #Skills #javaScript {
-    right: 4.5rem !important;
+    right: 5rem !important;
   }
-  /* #Skills #py {
-    right: 9rem !important;
-  } */
+
   #Skills #win {
     right: 9rem !important;
   }
