@@ -187,42 +187,12 @@ ul li {
   text-align: start;
   line-height: 20px;
   margin-top: -10px;
-<<<<<<< HEAD
-=======
-}
-@keyframes animate {
-  0% {
-    opacity: 0;
-    width: 0%;
-  }
-
-  100% {
-    opacity: 1;
-    width: 82%;
-  }
-}
-@keyframes animateText {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 0.5;
-  }
-
-  100% {
-    opacity: 1;
-  }
->>>>>>> ce091d33970c4b338d2238cfacf258fb2655c434
 }
 #Skills #cSharp {
   animation: animateText 1.1s linear;
   color: #b74bb7;
-<<<<<<< HEAD
   position: relative;
   right: 7rem;
-=======
->>>>>>> ce091d33970c4b338d2238cfacf258fb2655c434
 }
 
 #Skills #sqlServ {
@@ -236,11 +206,8 @@ ul li {
 #Skills #sql {
   animation: animateText 1.3s linear;
   color: #e52e2e;
-<<<<<<< HEAD
   position: relative;
   right: 5rem;
-=======
->>>>>>> ce091d33970c4b338d2238cfacf258fb2655c434
 }
 #Skills #html {
   background: #303030;
