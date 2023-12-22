@@ -349,7 +349,9 @@ ul li {
     margin: 0 auto;
     padding: 20px;
   }
-
+  #header-container h1 {
+    color: #fff;
+  }
   #social-media {
     left: 3px;
     position: relative;
