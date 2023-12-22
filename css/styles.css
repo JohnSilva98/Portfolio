@@ -355,6 +355,7 @@ ul li {
   #social-media {
     left: 3px;
     position: relative;
+    color: #fff;
   }
 
   #aside-content {
@@ -387,7 +388,7 @@ ul li {
     right: 10rem !important;
   }
   #Skills #javaScript {
-    right: 3rem !important;
+    right: 4rem !important;
   }
   /* #Skills #py {
     right: 9rem !important;
