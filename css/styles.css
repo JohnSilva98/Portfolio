@@ -359,4 +359,35 @@ ul li {
     width: 100%;
     height: 50%;
   }
+
+  #habilidades {
+    height: 75vh;
+  }
+  #habilidades #hab {
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+
+  #habilidades .title {
+    right: 9rem !important;
+  }
+
+  #Skills #cSharp {
+    right: 11.2rem !important;
+  }
+  #Skills #ht {
+    right: 10.5rem !important;
+  }
+  #Skills #css3 {
+    right: 11rem !important;
+  }
+  #Skills #py {
+    right: 10rem !important;
+  }
+  #Skills #win {
+    right: 9.5rem !important;
+  }
+  #Skills #macOS {
+    right: 10rem !important;
+  }
 }
