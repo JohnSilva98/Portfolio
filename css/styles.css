@@ -91,10 +91,15 @@ h3 {
 #habilidades {
   background-color: #000000;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
 #habilidades li {
   margin: 10px;
+}
+
+.switch {
+  padding: 5px;
+  margin: 30px 0;
 }
 
 #contato {
@@ -107,7 +112,7 @@ h3 {
   text-align: center;
   background-color: #1e1e1e;
 
-  height: 900px;
+  height: auto;
   width: 400px;
 }
 
@@ -329,16 +334,13 @@ ul li {
 .projects-gallery {
   column-count: 3;
   column-gap: 0;
- 
 }
-
 
 .projects-gallery img {
   margin: 0 0 2px 8px;
   width: 100%;
   aspect-ratio: 1/1;
   transition: scale 350ms ease, opacity 350ms linear;
-  
 }
 .projects-gallery:has(img:hover) img:not(:hover) {
   scale: 0.9;
