@@ -353,15 +353,20 @@ ul li {
   }
 
   #header-container {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
   }
   #header-container h1 {
     color: #fff;
   }
   #social-media {
-    left: 3px;
     position: relative;
+    left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #social-media a {
     color: #fff;
