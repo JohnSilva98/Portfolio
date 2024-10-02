@@ -394,16 +394,19 @@ ul li {
     right: 10rem !important;
   }
   #Skills #css3 {
-    right: 11rem !important;
+    right: 10.5rem !important;
   }
   #Skills #javaScript {
-    right: 5rem !important;
+    right: 9rem !important;
+  }
+  #Skills #py {
+    right: 10rem !important;
   }
 
   #Skills #win {
-    right: 9rem !important;
+    right: 9.5rem !important;
   }
   #Skills #macOS {
-    right: 9rem !important;
+    right: 10rem !important;
   }
 }
