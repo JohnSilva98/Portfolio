@@ -426,6 +426,6 @@ ul li {
 
     width: 100%;
     aspect-ratio: 1/1;
-    transition: scale 350ms ease, opacity 350ms linear;
+    transition: none;
   }
 }
