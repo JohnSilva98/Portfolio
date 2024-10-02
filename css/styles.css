@@ -421,6 +421,11 @@ ul li {
     margin: 0 auto;
   }
 
+  .projects-gallery:has(img:hover) img:not(:hover) {
+  scale: 1;
+  opacity: 1;
+}
+
   .projects-gallery img {
     /* margin: 0 0 2px 8px; */
 
