@@ -8,7 +8,7 @@
 /* html */
 html {
   background: rgb(2, 0, 36);
-  background: linear-gradient(180deg, #000000 30%, #0f5 100%);
+  background: linear-gradient(180deg, #000000 30%, rgb(4, 201, 69) 100%);
 }
 
 #main-container {
@@ -408,5 +408,19 @@ ul li {
   }
   #Skills #macOS {
     right: 9.5rem !important;
+  }
+
+  .projects-gallery {
+    column-count: 1;
+    column-gap: 0;
+    margin: 0 auto;
+  }
+
+  .projects-gallery img {
+    /* margin: 0 0 2px 8px; */
+
+    width: 100%;
+    aspect-ratio: 1/1;
+    transition: scale 350ms ease, opacity 350ms linear;
   }
 }
